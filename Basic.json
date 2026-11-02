@@ -1,0 +1,41 @@
+{
+  "name": "OldCord",
+  "version": "2.1",
+  "author": "milbit, kinggamingyt",
+  "source": "https://github.com/milbits/oldcord",
+  "website": "https://github.com/milbits/oldcord",
+  "description": "Restores discord's 2020 UI",
+  "main": "https://milbits.github.io/oldcord/src/main.css",
+  "components": {
+    "vars": "https://milbits.github.io/oldcord/src/components/vars.css",
+    "color": "https://milbits.github.io/oldcord/src/components/color.css",
+    "imgs": "https://milbits.github.io/oldcord/src/components/imgs.css",
+    "other": "https://milbits.github.io/oldcord/src/components/other.css",
+    "profile": "https://milbits.github.io/oldcord/src/components/profile.css",
+    "redesign": "https://milbits.github.io/oldcord/src/components/redesign.css"
+  },
+  "addons": {
+    "showEffects": "https://milbits.github.io/oldcord/src/components/showEffects.css",
+    "showTags": "https://milbits.github.io/oldcord/src/components/showTags.css",
+    "oldEmojis": "https://milbits.github.io/oldcord/src/components/oldEmojis.css",
+    "oldContext": "https://milbits.github.io/oldcord/src/components/oldContext.css"
+  },
+  "variables": {
+    "--oldcord-tint": 210,
+    "--oldcord-tint-intensity": 11.11,
+    "--reaction-animation": 0
+  },
+  "notes": {
+    "vars": "I don't recommend disabling this",
+    "color": "Restores old blurple n stuff",
+    "imgs": "2020 default avatars and other icons",
+    "other": "Random stuff that add to the theme",
+    "profile": "Restores the original 2020 Profile UI. Disables cosmetics by default, look at \"addons\" below",
+    "redesign": "The old Discord layout, pre-2025",
+    "showEffects": "profile cosmetics! woah! funky banners and colors and nametags and stuff! so cool!",
+    "showTags": "Clan tags ( [🗡️CLAN] )",
+    "oldEmojis": "The old 🥺🥹",
+    "oldContext": "Old color when you use right click menus",
+    "reaction-animation": "animation when someone reacts. 0 off 1 on. buggy."
+  }
+}
